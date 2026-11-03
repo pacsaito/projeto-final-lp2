@@ -1,23 +1,23 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
 descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
-autores: Nome do integrante 1, Nome do integrante 2, Nome do integrante 3
+autores: Fábio Antônio Nunes, Gabriel Pereira Dias, Pedro Augusto de Castro Saito.
 versao: v1.0
-ultima_atualizacao: Dia/mês/ano
+ultima_atualizacao: 03/11/2026
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Nome do projeto]
+# Site Universo
 
-[Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
+Um site que propõe diferentes tópicos sobre o universo em si, com o objetivo principal sendo a exposição de informações, teorias e curiosidades desse mesmo tema para pesquisadores e curiosos na internet.
 
 ## Integrantes
 
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
-| [Nome completo] | [Ex.: Figma, estrutura HTML e documentação] |
-| [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
-| [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
+| Fábio Antônio Nunes | Figma,  |
+| Gabriel Pereira Dias | Figma,  |
+| Pedro Augusto de Castro Saito | Atualização da documentação do github, Figma, |
 
 ## Links
 
