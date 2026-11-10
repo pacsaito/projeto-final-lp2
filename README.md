@@ -1,9 +1,9 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
-descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
+descricao: Site sobre o Universo, sendo o Fábio Antônio, o Gabriel Pereira e o Pedro Saito os integrantes; link do site publicado;  https://www.figma.com/design/BJQJBWmNrv9icn4NwkoZTv/Site-Universo?node-id=0-1&t=IvgQlOumb2xZPcTC-1;  Organização do Repositório -> Home, Tipos de Astros, Teorias, Missões, Objetos usados para estudo e Sistema Solar;  
 autores: Fábio Antônio Nunes, Gabriel Pereira Dias, Pedro Augusto de Castro Saito.
 versao: v1.0
-ultima_atualizacao: 03/11/2026
+ultima_atualizacao: 08/11/2026, no Figma.
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
@@ -22,7 +22,7 @@ Um site que propõe diferentes tópicos sobre o universo em si, com o objetivo p
 ## Links
 
 - **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Protótipo no Figma:** https://www.figma.com/design/BJQJBWmNrv9icn4NwkoZTv/Site-Universo?node-id=0-1&t=3dnTa4LgGuDGx3AO-1
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
