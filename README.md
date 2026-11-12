@@ -45,3 +45,16 @@ Um site que propõe diferentes tópicos sobre o universo em si, com o objetivo p
 ## Uso de IA
 
 O uso de chatbot para tirar dúvidas está registrado em [docs/uso-de-IA.md](docs/uso-de-IA.md). Ferramentas que editam o repositório ou geram código de forma autônoma não foram utilizadas.
+
+
+
+ <div id="nav"><ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="universo/tipos-de-astros.html">Tipos de Astros</a></li>
+  <li><a href="universo/teorias.html">Teorias</a></li>
+  <li><a href="universo/missões.html">Missões</a></li>
+  <li><a href="universo/objetos-estudo.html">Objetos utilizados para estudo</a></li>
+  <li><a href="universo/sistema-solar.html">Sistema Solar</a></li>
+</ul>
+</div>
+
