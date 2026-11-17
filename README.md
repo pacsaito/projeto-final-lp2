@@ -45,3 +45,17 @@ Um site que propõe diferentes tópicos sobre o universo em si, com o objetivo p
 ## Uso de IA
 
 O uso de chatbot para tirar dúvidas está registrado em [docs/uso-de-IA.md](docs/uso-de-IA.md). Ferramentas que editam o repositório ou geram código de forma autônoma não foram utilizadas.
+
+
+#navbar{
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    background-color: #111c35;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
