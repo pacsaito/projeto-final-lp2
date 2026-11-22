@@ -62,9 +62,9 @@ a {
 
 #sobre-paginas{
     height: 625px;
-    background-image: url("../../img/home/Quadro Conheça Sobre.png");
+    background-image: url("../../img/home/Quadro-Conheça-Sobre.png");
     margin: 0;
-    padding: 100px;
+    padding: 96px;
 }
 #imgs-sobre-paginas{
     gap: 20px;
@@ -73,6 +73,10 @@ a {
     font-size: 48px;
     font-family: 'Jura', sans-serif;
     color: #FFFFFF;
+}
+.img-card{
+    width: "170px"; 
+    height: "221px";
 }
 .cards {
     display: flex;
@@ -109,7 +113,8 @@ a {
     height: 737px;
     color: #FFFFFF;
     font-size: 32px;
-    margin: 0
+    padding: 50px;
+    box-sizing: border-box;
 }
 #texto-da-frase-motivacional{
     gap: 100px;
@@ -210,6 +215,7 @@ footer{
 
 /*Cards.....................*/
 #sobre-paginas{
+    padding: 20px 0 20px 0;
     background-image: url(../../img/home/conheça-sobre-mobile.png);
 }
 #titulo-sobre-paginas{
@@ -222,14 +228,53 @@ footer{
 .cards{
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 .card{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .img-card{
     width: 158px;
     height: 175px;
+}
+.texto-card{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: #111C35;
+    color: #FFFFFF;
+    text-align: center;
+    width: 150px;
+    height: 130px;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*................*/
+
+/*Frase Motivacional*/
+#frase-motivacional{
+    background-image: url("../../img/home/frase-motivacional-mobile.png");
+    min-height: 749px;
+    box-sizing: border-box;
+}
+#texto-da-frase-motivacional{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    padding: 20px;
+
+}
+#autor{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    padding: 20px;
+
 }
 
 
@@ -239,7 +284,7 @@ footer{
     padding: 30px 20px 50px 20px;
     background-color: #111C35;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
     justify-content: space-around;
 }
