@@ -5,8 +5,8 @@ body{
   margin: 0 auto;
 }
 a {
-    color: #FFFFFF;         /* Deixa o texto branco */
-    text-decoration: none;  /* Remove o sublinhado padrão */
+    color: #FFFFFF;
+    text-decoration: none;  
 }
 #navbar{
     height: 148px;
@@ -62,7 +62,7 @@ a {
 
 #sobre-paginas{
     height: 625px;
-    background-image: url("../../img/home/Quadro-Conheça-Sobre.png");
+    background-image: url("../../img/home/Conheça-Sobre.png");
     margin: 0;
     padding: 96px;
 }
@@ -104,6 +104,10 @@ a {
     box-sizing: border-box;
 }
 
+.link-do-card{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 
 
@@ -170,9 +174,13 @@ footer{
 
 
 @media (max-width: 412px){
-   #navbar{
-     display: none;
-   }
+    .sem-margin{
+  display: flow-root;
+    }
+
+    #navbar{
+        display: none
+    }
 
 /*Hero.....................*/
    #hero{
@@ -194,8 +202,9 @@ footer{
     }
 
     #imagem-hero{
-        width: 288px;
-        height: auto;
+        max-width: 288px;
+        max-height: 162px;
+        margin-left: 40px;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -253,6 +262,10 @@ footer{
     align-items: center;
     display: flex;
     justify-content: center;
+}
+.link-do-card{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 /*................*/
 

@@ -1,286 +1,434 @@
-@media(min-width: 500px){
-body{
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-a {
-    color: #FFFFFF;         /* Deixa o texto branco */
-    text-decoration: none;  /* Remove o sublinhado padrão */
-}
-#navbar{
-    height: 148px;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    background-color: #111c35;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
-}
+@media(min-width: 500px) {
+    body {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-#hero-missões{
-    background-image: url("../../img/missões/Terra.png");
-    height: 735px;
-    padding: 50px;
-}
-#titulo-hero{
-    font-family: 'Jura', sans-serif;
-    font-size: 48px;
-    color: #FFFFFF;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-#menu{
-    display: none;
-}
-#texto-hero{
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    color: #FFFFFF;
-    padding: 30px 80px 30px 80px;
-    align-items: center;
-    text-align: center;
-}
-
-
-
-#missões-espaciais-mais-importantes{
-    background-image: url("../../img/missões/Lançamento-de-foguete.png");
-    height: 903px;
-    box-sizing: border-box;
-    padding: 40px 30px 40px 30px;
-}
-
-#title-m-m-importantes{
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Jura', sans-serif;
-    color: #FFFFFF;
-    margin: 40px 0px 80px 0px;
-}
-
-
-.card{
-    padding: 5px 20px 5px 20px;
-    width: 188px;
-    height: 188px;
-    box-sizing: border-box;
-    font-size: 24px;
-    font-family: 'Jura', sans-serif;
-    background-color: #D9D9D9;
-    border: #000000 solid 1px;
-    
-}
-#linha1-cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    margin: 0px 0px 100px 0px;
-    
-}
-#linha2-cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-}
-#linhas-card{
-    align-items: center;
-}
-
-
-
-#missão-clicada{
-    background-image: url("../../img/missões/Universo-Rosa.png");
-    height: 609px;
-}
-#primeira-missao, #segunda-missao, #terceira-missao, #quarta-missao, #quinta-missao, #sexta-missao, #setima-missao, #oitava-missao, #nona-missao, #decima-missao{
-    display: none;
-}
-.caixa-de-texto-esquerda{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 426px;
-}
-.title.missão{
-   font-size: 36px; 
-   font-family: 'Jura',sans-serif;
-   background-color: #AAB4D0;
-}
-
-
-/* Footer ....................*/
-
-footer{
-    padding: 100px;
-    background-color: #111C35;
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-    justify-content: space-around;
-}
-#card-logo{
-    background-color: #5267D9;
-    height: 300px;
-    min-width: 361px;
-    text-align: center;
-    border: #9875E8 solid 3px;
-}
-#frase-card-logo{
-    font-family: Jura, sans-serif;
-    color: #FFFFFF;
-    font-size: 36px;
-    text-align: center;
-}
-#texto-do-texto-logo{
-    font-family: Jura, sans-serif;
-    font-size: 20px;
-    color: #FFFFFF;
-}
-
-.frase{
-    display: flex;
-    flex-direction: column;
-}
-#botão-do-texto-logo{
-    width: 186px;
-    height: 47px;
-    background-color: #AAB4D0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    font-family: Jura, sans-serif;
-    font-size: 20px;
-}
-/*..............................*/
-}
-
-@media(max-width: 412px){
-    #navbar{
+    #menu {
         display: none;
     }
 
-#hero-missões{
-    padding: 20px;
-    background-image: url("../../img/missões/Terra-mobile.png");
-    height: 603px;
-    align-items: center;
-}
-.primeira-linha{
-    display: flex;
-    flex-direction: row;
-}
-#titulo-hero{
-    font-size: 32px;
-    font-family: 'Jura', sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-}
-#texto-hero{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: #FFFFFF;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-}
+    .nav-link {
+        color: #FFFFFF;
+        /* Deixa o texto branco */
+        text-decoration: none;
+        /* Remove o sublinhado padrão */
+    }
+
+    #navbar {
+        height: 148px;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        background-color: #111c35;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero-missões {
+        background-image: url("../../img/missões/Terra.png");
+        height: 735px;
+        padding: 50px;
+    }
+
+    #titulo-hero {
+        font-family: 'Jura', sans-serif;
+        font-size: 48px;
+        color: #FFFFFF;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #texto-hero {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        color: #FFFFFF;
+        padding: 30px 80px 30px 80px;
+        align-items: center;
+        text-align: center;
+    }
 
 
-/*Missões mais importantes*/
 
-#missões-espaciais-mais-importantes{
-    background-image: url("../../img/missões/Lançamento-foguete-mobile.png");
-    height: 1172px;
-    box-sizing: border-box;
-    padding: 40px 30px 40px 30px;
-}
-#title-m-m-importantes{
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Jura', sans-serif;
-    color: #FFFFFF;
-    margin: 40px 10px 40px 0px;
-}
-.card{
-    padding: 5px;
-    width: 152px;
-    height: 150px;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Jura', sans-serif;
-    background-color: #D9D9D9;
-    border: #000000 solid 1px;
-    
-}
-#linha1-cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    
-}
-#linha2-cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-}
-#linhas-card{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+    #missões-espaciais-mais-importantes {
+        background-image: url("../../img/missões/Lançamento-de-foguete.png");
+        height: 903px;
+        box-sizing: border-box;
+        padding: 40px 30px 40px 30px;
+    }
+
+    #title-m-m-importantes {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Jura', sans-serif;
+        color: #FFFFFF;
+        margin: 40px 0px 80px 0px;
+    }
+
+    .links-dos-cards {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .card {
+        padding: 5px 20px 5px 20px;
+        width: 188px;
+        height: 188px;
+        box-sizing: border-box;
+        font-size: 24px;
+        font-family: 'Jura', sans-serif;
+        background-color: #D9D9D9;
+        border: #000000 solid 1px;
+        text-decoration: none;
+
+    }
+
+    #linha1-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        margin: 0px 0px 100px 0px;
+
+    }
+
+    #linha2-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #linhas-card {
+        align-items: center;
+    }
+
+
+
+    #missão-clicada {
+        background-image: url("../../img/missões/Universo-Rosa.png");
+        height: 609px;
+    }
+
+    .missão {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        padding: 100px 120px 0px 120px;
+    }
+
+    #primeira-missao,
+    #segunda-missao,
+    #terceira-missao,
+    #quarta-missao,
+    #quinta-missao,
+    #sexta-missao,
+    #setima-missao,
+    #oitava-missao,
+    #nona-missao,
+    #decima-missao {
+        display: none;
+    }
+
+    .caixa-de-texto-esquerda {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .title-missão {
+        font-size: 36px;
+        font-family: 'Jura', sans-serif;
+        color: #000000;
+        background-color: #AAB4D0;
+        padding: 30px;
+    }
+
+    .caixa-de-texto-direita {
+        display: flex;
+        flex-direction: row;
+        background-color: #AAB4D0;
+        padding: 20px 90px 20px 90px;
+        font-family: 'Jura', sans-serif;
+        font-size: 28px;
+        box-sizing: border-box;
+    }
+
+    .title.missão {
+        font-size: 36px;
+        font-family: 'Jura', sans-serif;
+        background-color: #AAB4D0;
+    }
+
+    .img-missão {
+        max-width: 400px;
+    }
+
+
+    /* Footer ....................*/
+
+    footer {
+        padding: 100px;
+        background-color: #111C35;
+        display: flex;
+        flex-direction: row;
+        gap: 300px;
+        justify-content: space-around;
+    }
+
+    #card-logo {
+        background-color: #5267D9;
+        height: 300px;
+        min-width: 361px;
+        text-align: center;
+        border: #9875E8 solid 3px;
+    }
+
+    #frase-card-logo {
+        font-family: Jura, sans-serif;
+        color: #FFFFFF;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #texto-do-texto-logo {
+        font-family: Jura, sans-serif;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .frase {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #botão-do-texto-logo {
+        width: 186px;
+        height: 47px;
+        background-color: #AAB4D0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        font-family: Jura, sans-serif;
+        font-size: 20px;
+    }
+
+    /*..............................*/
 }
 
-/*Footer...................*/
-footer{
-    padding: 30px 20px 50px 20px;
-    background-color: #111C35;
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 30px;
-    justify-content: space-around;
-}
-#card-logo{
-    background-color: #5267D9;
-    height: 300px;
-    min-width: 300px;
-    text-align: center;
-    border: #9875E8 solid 3px;
-}
-#frase-card-logo{
-    font-family: Jura, sans-serif;
-    color: #FFFFFF;
-    font-size: 30px;
-    text-align: center;
-}
-#texto-do-texto-logo{
-    font-family: Jura, sans-serif;
-    font-size: 20px;
-    color: #FFFFFF;
-}
+@media(max-width: 412px) {
+    #navbar {
+        display: none;
+    }
 
-.frase{
-    display: flex;
-    flex-direction: column;
-}
-#botão-do-texto-logo{
-    width: 186px;
-    height: 47px;
-    background-color: #AAB4D0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    font-family: Jura, sans-serif;
-    font-size: 20px;
-}
-/*...........................*/ 
-}
+    #menu {
+        display: flex;
+        justify-content: right;
+        height: 15px;
+    }
+
+    #hero-missões {
+        padding: 20px;
+        background-image: url("../../img/missões/Terra-mobile.png");
+        height: 560px;
+        align-items: center;
+    }
+
+    .primeira-linha {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #titulo-hero {
+        font-size: 32px;
+        font-family: 'Jura', sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    #texto-hero {
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    /*Missões mais importantes*/
+
+    #missão-clicada {
+        background-image: url("../../img/missões/Universo-Rosa-mobile.png");
+        height: 936px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .missão {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 10px 30px 10px 30px;
+    }
+
+    #primeira-missao,
+    #segunda-missao,
+    #terceira-missao,
+    #quarta-missao,
+    #quinta-missao,
+    #sexta-missao,
+    #setima-missao,
+    #oitava-missao,
+    #nona-missao,
+    #decima-missao {
+        display: none;
+    }
+
+    .caixa-de-texto-esquerda {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .title-missão {
+        font-size: 32px;
+        font-family: 'Jura', sans-serif;
+        color: #000000;
+        background-color: #AAB4D0;
+        padding: 20px;
+    }
+
+    .caixa-de-texto-direita {
+        display: flex;
+        flex-direction: column;
+        background-color: #AAB4D0;
+        padding: 20px 0px 20px 0px;
+        font-family: 'Jura', sans-serif;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .img-missão {
+        max-width: 280px;
+    }
+
+    .links-dos-cards {
+        text-decoration: none;
+        color: #000000;
+    }
+
+
+
+    #missões-espaciais-mais-importantes {
+        background-image: url("../../img/missões/Lançamento-foguete-mobile.png");
+        height: 1172px;
+        box-sizing: border-box;
+        padding: 40px 30px 40px 30px;
+    }
+
+    #title-m-m-importantes {
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Jura', sans-serif;
+        color: #FFFFFF;
+        margin: 40px 10px 40px 0px;
+    }
+
+    .card {
+        padding: 5px;
+        width: 152px;
+        height: 150px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: 'Jura', sans-serif;
+        background-color: #D9D9D9;
+        border: #000000 solid 1px;
+    }
+
+        
+
+        #linha1-cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+
+        }
+
+        #linha2-cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        #linhas-card {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+
+        /*Footer...................*/
+        footer {
+            padding: 30px 20px 50px 20px;
+            background-color: #111C35;
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+            justify-content: space-around;
+        }
+
+        #card-logo {
+            background-color: #5267D9;
+            height: 300px;
+            min-width: 300px;
+            text-align: center;
+            border: #9875E8 solid 3px;
+        }
+
+        #frase-card-logo {
+            font-family: Jura, sans-serif;
+            color: #FFFFFF;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #texto-do-texto-logo {
+            font-family: Jura, sans-serif;
+            font-size: 20px;
+            color: #FFFFFF;
+        }
+
+        .frase {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #botão-do-texto-logo {
+            width: 186px;
+            height: 47px;
+            background-color: #AAB4D0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            font-family: Jura, sans-serif;
+            font-size: 20px;
+        }
+
+        /*...........................*/
+    }
