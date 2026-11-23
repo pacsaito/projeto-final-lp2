@@ -82,32 +82,6 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | | | | | | | prints/ia-47.png |
 | | | | | | | prints/ia-48.png |
 | | | | | | | prints/ia-49.png |
-| | | | | | | prints/ia-50.png |
-| | | | | | | prints/ia-51.png |
-| | | | | | | prints/ia-52.png |
-| | | | | | | prints/ia-53.png |
-| | | | | | | prints/ia-54.png |
-| | | | | | | prints/ia-55.png |
-| | | | | | | prints/ia-56.png |
-| | | | | | | prints/ia-57.png |
-| | | | | | | prints/ia-58.png |
-| | | | | | | prints/ia-59.png |
-| | | | | | | prints/ia-60.png |
-| | | | | | | prints/ia-61.png |
-| | | | | | | prints/ia-62.png |
-| | | | | | | prints/ia-63.png |
-
-
-
-
-
-
-
-
-
-
-| Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
-|---|---|---|---|---|---|---|
 | 2026-11-23 | ChatGPT | Estrutura HTML do menu | site/index.html | Dúvida sobre como criar um botão que abrisse um menu de navegação. | Recebi uma estrutura HTML com botão e links para as páginas do site. | prints/ia-50.jpeg |
 | 2026-11-23 | ChatGPT | Ocultar menu com CSS | site/css/estilo.css | O menu precisava ficar escondido inicialmente e aparecer somente após o clique. | Entendi o uso de `display: none` para esconder o menu. | prints/ia-51.jpeg |
 | 2026-11-23 | ChatGPT | Seleção de elementos JavaScript | site/js/script.js | Dúvida sobre como identificar o botão e o menu no JavaScript. | Aprendi a utilizar `getElementById()` e `addEventListener()`. | prints/ia-52.jpeg |
@@ -122,3 +96,8 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | 2026-11-23 | ChatGPT | Organização da estrutura HTML | site/index.html; site/css/estilo.css | O menu precisava ser posicionado em relação ao botão, e não à navbar inteira. | Recebi a orientação de agrupar o botão e o menu em uma `div.menu-container`. | prints/ia-61.jpeg |
 | 2026-11-23 | ChatGPT | Ajuste final do posicionamento | site/css/estilo.css | O menu ainda precisava aparecer abaixo do botão e alinhado à esquerda. | Ajustei as propriedades `top: 100%` e `left: 0`. | prints/ia-62.jpeg |
 | 2026-11-23 | ChatGPT | Personalização dos links | site/css/estilo.css | Os links apresentavam sublinhado e cores padrão do navegador. | Aprendi a utilizar `text-decoration: none`, `color` e `:hover`. | prints/ia-63.jpeg |
+
+
+
+
+
