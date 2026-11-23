@@ -31,6 +31,80 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 
 
+| Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
+|---|---|---|---|---|---|---|
+| | | | | | | prints/ia-01.png |
+| | | | | | | prints/ia-02.png |
+| | | | | | | prints/ia-03.png |
+| | | | | | | prints/ia-04.png |
+| | | | | | | prints/ia-05.png |
+| | | | | | | prints/ia-06.png |
+| | | | | | | prints/ia-07.png |
+| | | | | | | prints/ia-08.png |
+| | | | | | | prints/ia-09.png |
+| | | | | | | prints/ia-10.png |
+| | | | | | | prints/ia-11.png |
+| | | | | | | prints/ia-12.png |
+| | | | | | | prints/ia-13.png |
+| | | | | | | prints/ia-14.png |
+| | | | | | | prints/ia-15.png |
+| | | | | | | prints/ia-16.png |
+| | | | | | | prints/ia-17.png |
+| | | | | | | prints/ia-18.png |
+| | | | | | | prints/ia-19.png |
+| | | | | | | prints/ia-20.png |
+| | | | | | | prints/ia-21.png |
+| | | | | | | prints/ia-22.png |
+| | | | | | | prints/ia-23.png |
+| | | | | | | prints/ia-24.png |
+| | | | | | | prints/ia-25.png |
+| | | | | | | prints/ia-26.png |
+| | | | | | | prints/ia-27.png |
+| | | | | | | prints/ia-28.png |
+| | | | | | | prints/ia-29.png |
+| | | | | | | prints/ia-30.png |
+| | | | | | | prints/ia-31.png |
+| | | | | | | prints/ia-32.png |
+| | | | | | | prints/ia-33.png |
+| | | | | | | prints/ia-34.png |
+| | | | | | | prints/ia-35.png |
+| | | | | | | prints/ia-36.png |
+| | | | | | | prints/ia-37.png |
+| | | | | | | prints/ia-38.png |
+| | | | | | | prints/ia-39.png |
+| | | | | | | prints/ia-40.png |
+| | | | | | | prints/ia-41.png |
+| | | | | | | prints/ia-42.png |
+| | | | | | | prints/ia-43.png |
+| | | | | | | prints/ia-44.png |
+| | | | | | | prints/ia-45.png |
+| | | | | | | prints/ia-46.png |
+| | | | | | | prints/ia-47.png |
+| | | | | | | prints/ia-48.png |
+| | | | | | | prints/ia-49.png |
+| | | | | | | prints/ia-50.png |
+| | | | | | | prints/ia-51.png |
+| | | | | | | prints/ia-52.png |
+| | | | | | | prints/ia-53.png |
+| | | | | | | prints/ia-54.png |
+| | | | | | | prints/ia-55.png |
+| | | | | | | prints/ia-56.png |
+| | | | | | | prints/ia-57.png |
+| | | | | | | prints/ia-58.png |
+| | | | | | | prints/ia-59.png |
+| | | | | | | prints/ia-60.png |
+| | | | | | | prints/ia-61.png |
+| | | | | | | prints/ia-62.png |
+| | | | | | | prints/ia-63.png |
+
+
+
+
+
+
+
+
+
 
 | Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
 |---|---|---|---|---|---|---|
