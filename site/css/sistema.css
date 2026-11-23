@@ -1,19 +1,135 @@
-.nav {
-background-color: #111C35;
-height: 150px;
-align-content: center;
-width: 320px;
-border-bottom: 10px;
-border-color: #284ca0;
+.backnav {
+    background-color: #111C35;
+    border-bottom: 3px solid #425d92;
+    height: 150px;
 }
 
-.navlink {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
+.navbar {
+    position: relative;
+}
 
+.menu {
+    display: none;
+    flex-direction: column;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: #111C35;
+    border: 1px solid #263451;
+    border-radius: 10px;
+
+    padding: 10px;
+    min-width: 200px;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu.aberto {
+    display: flex;
+}
+
+.menu a {
+    color: #E8EDFF;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu a:hover {
+    background-color: #263451;
+    border-radius: 6px;
+}
+
+#menu-btn img {
+    width: 50px;
+    height: 50px;
 }
 
 body {
     margin: 0px;
+    background-color: #080D1B;
+}
+
+p {
+    text-align: center;
+    color: #AAB4D0;
+}
+h1 {
+    text-align: center;
+    color: #5267D9
+}
+
+h2 {
+    color: #263451;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+li {
+    color: #AAB4D0;
+    text-align:center;
+}
+
+.opt {
+    color: #000000;
+}
+footer {
+    padding: 30px 20px 50px 20px;
+    background-color: #111C35;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+#card-logo {
+    background-color: #5267D9;
+    height: 300px;
+    min-width: 300px;
+    text-align: center;
+    border: #9875E8 solid 3px;
+}
+
+#frase-card-logo {
+    font-family: Jura, sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+#texto-do-texto-logo {
+    font-family: Jura, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#botão-do-texto-logo {
+    width: 186px;
+    height: 47px;
+    background-color: #AAB4D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Jura, sans-serif;
+    font-size: 20px;
+}
+
+.frase {
+    display: flex;
+    flex-direction: column;
+}
+
+#texto-do-texto-logo a {
+    text-decoration: none;
+    color: #E8EDFF;
 }

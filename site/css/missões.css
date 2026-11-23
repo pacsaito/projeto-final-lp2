@@ -116,14 +116,14 @@
 
     #missão-clicada {
         background-image: url("../../img/missões/Universo-Rosa.png");
-        height: 609px;
+        height: 700px;
     }
 
     .missão {
         display: flex;
         flex-direction: row;
         gap: 100px;
-        padding: 100px 120px 0px 120px;
+        padding: 20px 120px 0px 120px;
     }
 
     #primeira-missao,
@@ -157,20 +157,20 @@
         display: flex;
         flex-direction: row;
         background-color: #AAB4D0;
-        padding: 20px 90px 20px 90px;
+        padding: 40px 100px 20px 100px;
         font-family: 'Jura', sans-serif;
-        font-size: 28px;
+        font-size: 30px;
         box-sizing: border-box;
     }
 
-    .title.missão {
+    .title-missão {
         font-size: 36px;
         font-family: 'Jura', sans-serif;
         background-color: #AAB4D0;
     }
 
     .img-missão {
-        max-width: 400px;
+        max-width: 300px;
     }
 
 

@@ -25,81 +25,49 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 | Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
 |---|---|---|---|---|---|---|
-| 2026-11-05 | ChatGPT | Estrutura HTML | site/index.html | Dúvida sobre a diferença entre `section` e `div`; a página tinha tudo dentro de `div`, o que dificultava ler a estrutura | Reorganizei o cabeçalho e as seções da página e testei no navegador | prints/ia-01.png |
-| 2026-11-12 | Meta AI | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | prints/ia-02.png |
-| 2026-11-19 | Gemini | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | prints/ia-03.png |
 
-
-
-| Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
-|---|---|---|---|---|---|---|
-| | | | | | | prints/ia-01.png |
-| | | | | | | prints/ia-02.png |
-| | | | | | | prints/ia-03.png |
-| | | | | | | prints/ia-04.png |
-| | | | | | | prints/ia-05.png |
-| | | | | | | prints/ia-06.png |
-| | | | | | | prints/ia-07.png |
-| | | | | | | prints/ia-08.png |
-| | | | | | | prints/ia-09.png |
-| | | | | | | prints/ia-10.png |
-| | | | | | | prints/ia-11.png |
-| | | | | | | prints/ia-12.png |
-| | | | | | | prints/ia-13.png |
-| | | | | | | prints/ia-14.png |
-| | | | | | | prints/ia-15.png |
-| | | | | | | prints/ia-16.png |
-| | | | | | | prints/ia-17.png |
-| | | | | | | prints/ia-18.png |
-| | | | | | | prints/ia-19.png |
-| | | | | | | prints/ia-20.png |
-| | | | | | | prints/ia-21.png |
-| | | | | | | prints/ia-22.png |
-| | | | | | | prints/ia-23.png |
-| | | | | | | prints/ia-24.png |
-| | | | | | | prints/ia-25.png |
-| | | | | | | prints/ia-26.png |
-| | | | | | | prints/ia-27.png |
-| | | | | | | prints/ia-28.png |
-| | | | | | | prints/ia-29.png |
-| | | | | | | prints/ia-30.png |
-| | | | | | | prints/ia-31.png |
-| | | | | | | prints/ia-32.png |
-| | | | | | | prints/ia-33.png |
-| | | | | | | prints/ia-34.png |
-| | | | | | | prints/ia-35.png |
-| Data | IA | Título / Assunto | Arquivo | Dúvida / Problema | Resposta / Solução | Print |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-22 | ChatGPT | Correção do caminho do arquivo CSS | site/universo/teorias.html e site/css/teorias.css | Dúvida sobre o motivo de o arquivo CSS não estar sendo aplicado à página HTML. | Arrumei a  organização das pastas  desse jeito como orientado(site/css/ e site/universo/). | prints/ia-36.png |
-| 2026-11-22 | ChatGPT | Imagem de fundo em uma div | site/css/teorias.css | Dúvida sobre como colocar uma imagem de fundo em uma div como se fosse um wallpaper. | Explicou o uso da propriedade CSS background-image com um exemplo de estrutura HTML e CSS. | prints/ia-37.png |
-| 2026-11-22 | ChatGPT | Caminho relativo da imagem no CSS | site/css/teorias.css | Dúvida sobre quantos níveis de pasta (../) usar no caminho da imagem de fundo. | Indicou o caminho correto (url("../../img/ImagemInicial.png")) voltando dois níveis a partir de site/css/ igual a 36. | prints/ia-38.png |
-| 2026-11-22 | ChatGPT | Verificação de caminho de imagens no HTML | site/universo/teorias.html | Dúvida para confirmar se o caminho ../../img/ estava certo para três imagens na mesma pasta. | Confirmou que o caminho utilizado nas tags img estava correto para a estrutura de site/universo/ igual a 36. | prints/ia-39.png |
-| 2026-11-22 | ChatGPT | Ajuste de tamanho e repetição de fundo | site/css/teorias.css | Problema com imagens de fundo se repetindo infinitamente e dúvidas sobre medidas de borda/espaçamento. | Orientou a não usar parágrafos vazios para espaçamento e usar background-repeat: no-repeat e background-size: cover coloque no repeat para a imagem ficar quieta no lugar e só expandi o px. | prints/ia-40.png |
-| 2026-11-22 | ChatGPT | Erro no endereço de exibição de imagem | site/css/objetos.css | Problema com uma imagem (image 15.png) que não estava aparecendo na página. | Apontou um erro de digitação no caminho (img/image/15.png em vez de img/image 15.png) 36. | prints/ia-41.png |
-| 2026-11-22 | ChatGPT | Alinhamento vertical de imagens | site/css/teorias.css | Dificuldade em posicionar três imagens uma embaixo da outra na lateral direita da página. | Explicou que a propriedade columns: 1 não serve para esse tipo de layout e sugeriu ajustar a estrutura CSS. | prints/ia-42.png |
-| 2026-11-22 | Gemini | Melhoria de resolução e transição de imagem | img/ | Pedido para melhorar a qualidade (evitar pixelização) e escurecer o topo de uma imagem para fundir com o banner. | Gerou uma nova versão da imagem em alta resolução com o topo escurecido para transição suave. | prints/ia-43.png |
-| 2026-11-23 | Gemini | Renderização e transição entre imagens de fundo | img/ | Pedido para renderizar duas imagens (evitar pixelização) e igualar o final de uma com o início da outra para criar transição. | Gerou as duas imagens em alta resolução com tons compatíveis nas bordas para formar uma transição contínua. | prints/ia-44.png |
-| 2026-11-23 | ChatGPT | Rolagem interna ao clicar em imagem | site/index.html | Dúvida sobre como fazer a página rolar para uma seção mais abaixo ao clicar em uma imagem. | Explicou o uso de âncora HTML (<a href="#id">) envolvendo a tag <img> para navegar até a seção desejada. | prints/ia-45.png |
-| 2026-11-23 | ChatGPT | Posicionamento da regra @media no CSS | site/css/ | Dúvida sobre onde inserir o @media no arquivo CSS para ajustar o tamanho de uma div no mobile. | Orientou a colocar o bloco @media no final do arquivo CSS, após os estilos padrão de desktop. | prints/ia-46.png |
-| 2026-11-23 | ChatGPT | Exemplo prático de responsividade com @media | site/css/ | Continuação da dúvida sobre como aplicar media queries para adaptar a altura e o espaçamento no celular. | Forneceu o código CSS com @media (max-width: 768px) ajustando min-height e padding da classe. | prints/ia-47.png |
-| | | | | | | prints/ia-48.png |
-| | | | | | | prints/ia-49.png |
-| 2026-11-23 | ChatGPT | Estrutura HTML do menu | site/index.html | Dúvida sobre como criar um botão que abrisse um menu de navegação. | Recebi uma estrutura HTML com botão e links para as páginas do site. | prints/ia-50.jpeg |
-| 2026-11-23 | ChatGPT | Ocultar menu com CSS | site/css/estilo.css | O menu precisava ficar escondido inicialmente e aparecer somente após o clique. | Entendi o uso de `display: none` para esconder o menu. | prints/ia-51.jpeg |
-| 2026-11-23 | ChatGPT | Seleção de elementos JavaScript | site/js/script.js | Dúvida sobre como identificar o botão e o menu no JavaScript. | Aprendi a utilizar `getElementById()` e `addEventListener()`. | prints/ia-52.jpeg |
-| 2026-11-23 | ChatGPT | Abertura e fechamento do menu | site/js/script.js; site/css/estilo.css | O botão precisava controlar a abertura e o fechamento do menu. | Utilizei `classList.toggle()` para alternar a classe de abertura. | prints/ia-53.jpeg |
-| 2026-11-23 | ChatGPT | Personalização do menu | site/css/estilo.css | O menu precisava combinar com a identidade visual do site. | Ajustei as cores, bordas, espaçamentos e fontes conforme as orientações. | prints/ia-54.jpeg |
-| 2026-11-23 | ChatGPT | Posicionamento CSS | site/css/estilo.css | Dúvidas sobre as propriedades necessárias para posicionar o menu. | Entendi o funcionamento de `position`, `top`, `right` e `flex-direction`. | prints/ia-55.jpeg |
-| 2026-11-23 | ChatGPT | Análise do CSS | site/css/estilo.css | O posicionamento do menu precisava ser conferido. | Apresentei o código para análise e identificação dos ajustes necessários. | prints/ia-56.jpeg |
-| 2026-11-23 | ChatGPT | Correção de seletores CSS | site/css/estilo.css | O seletor utilizado para abrir o menu estava incorreto. | Corrigi o seletor para `.menu.aberto` e ajustei o posicionamento. | prints/ia-57.jpeg |
-| 2026-11-23 | ChatGPT | Revisão do menu | site/css/estilo.css; site/js/script.js | Necessidade de conferir se o CSS e o JavaScript estavam funcionando juntos. | Recebi uma versão revisada dos códigos para realizar os testes. | prints/ia-58.jpeg |
-| 2026-11-23 | ChatGPT | Carregamento JavaScript | site/index.html; site/js/script.js | Dúvidas sobre o carregamento correto do arquivo JavaScript. | Recebi orientações sobre o atributo `defer` e os testes no navegador. | prints/ia-59.jpeg |
-| 2026-11-23 | ChatGPT | Diagnóstico do posicionamento | site/css/estilo.css | O menu estava aparecendo do lado oposto ao botão. | Identifiquei a necessidade de ajustar a referência de posicionamento. | prints/ia-60.jpeg |
-| 2026-11-23 | ChatGPT | Organização da estrutura HTML | site/index.html; site/css/estilo.css | O menu precisava ser posicionado em relação ao botão, e não à navbar inteira. | Recebi a orientação de agrupar o botão e o menu em uma `div.menu-container`. | prints/ia-61.jpeg |
-| 2026-11-23 | ChatGPT | Ajuste final do posicionamento | site/css/estilo.css | O menu ainda precisava aparecer abaixo do botão e alinhado à esquerda. | Ajustei as propriedades `top: 100%` e `left: 0`. | prints/ia-62.jpeg |
-| 2026-11-23 | ChatGPT | Personalização dos links | site/css/estilo.css | Os links apresentavam sublinhado e cores padrão do navegador. | Aprendi a utilizar `text-decoration: none`, `color` e `:hover`. | prints/ia-63.jpeg |
-
-
-
+| 2026-11-20 | Gemini | Estrutura Css | site/index.html | Dúvida de como colocar todo o site centralizado com uma largura de 1440px. Forma trabalhada no Figma e dúvida sobre divs e css.| Só aprendi e apliquei ao meu código a largura de 1440px, mas a IA simplesmente ignorou meus outros pedidos | prints/ia-01.png |
+| 2026-11-20 | Gemini | Estrutura Css | site/css/index.css | Mesmo que ia-01.png, porque não deu para tirar print de tudo no print 1. | Só aprendi e apliquei ao meu código a largura de 1440px, mas a IA simplesmente ignorou meus outros pedidos | prints/ia-02.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Término da resposta da pergunta do print/ia-01.png, porque a IA não foi capaz de me responder antes. | Usei o margin: 0 auto sugerido e aprendi que funcionalidades do css só atua em divs filhas | prints/ia-03.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Término da resposta da pergunta do print/ia-01.png, porque a IA não foi capaz de me responder antes. | Usei o margin: 0 auto sugerido e aprendi que funcionalidades do css só atua em divs filhas | prints/ia-04.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Término da resposta da pergunta do print/ia-01.png, porque a IA não foi capaz de me responder antes. | Usei o margin: 0 auto sugerido e aprendi que funcionalidades do css só atua em divs filhas | prints/ia-05.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Término da resposta da pergunta do print/ia-01.png, porque a IA não foi capaz de me responder antes. | Usei o margin: 0 auto sugerido e aprendi que funcionalidades do css só atua em divs filhas | prints/ia-06.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobrre como deixar o topo da caixa de texto do hero alinhado com o topo da imagem. (Mesmo que 8 e 9, pois não coube em uma só imagem)| Não usei nada do que a IA indicou, pois eu tentei e não deu certo diante das configurações que já tinha aplicado, o que gerou certa frustação | prints/ia-07.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobrre como deixar o topo da caixa de texto do hero alinhado com o topo da imagem. (Mesmo que 7 e 9, pois não coube em uma só imagem) | Não usei nada do que a IA indicou, pois eu tentei e não deu certo diante das configurações que já tinha aplicado, o que gerou certa frustação | prints/ia-08.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar o topo da caixa de texto do hero alinhado com o topo da imagem. (Mesmo que 7 e 8, pois não coube em uma só imagem) | Não usei nada do que a IA indicou, pois eu tentei e não deu certo diante das configurações que já tinha aplicado, o que gerou certa frustação | prints/ia-09.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar o topo da caixa de texto do hero alinhado com o topo da imagem. (Mesmo que 7 e 8, pois não coube em uma só imagem) | Não usei nada do que a IA indicou, pois eu tentei e não deu certo diante das configurações que já tinha aplicado, o que gerou certa frustação | prints/ia-09.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar o topo da caixa de texto do hero alinhado com o topo da imagem. (Mesmo que 7 e 8, pois não coube em uma só imagem) | Não usei nada do que a IA indicou, pois eu tentei e não deu certo diante das configurações que já tinha aplicado, o que gerou certa frustação | prints/ia-09.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida cada caixa de texto com as mesmas larguras e alturas, mesmo que tenha quantidades distintas de caracteres. Pois antes dava tudo com tamanho diferente e não consegui resolver. (Mesmo que 11,12 e 13, pois não coube em uma só imagem) | Usei os dois passos novos indicados pela IA, min-height: 180px(adequando os pixels) e box-sizing: border-box. Ter dado certo com apenas duas funcionalidades trouxe sentimento de alegria. Além disso, aprendi a incluir o padding com a largura e altura indicadas. | prints/ia-10.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida cada caixa de texto com as mesmas larguras e alturas, mesmo que tenha quantidades distintas de caracteres. Pois antes dava tudo com tamanho diferente e não consegui resolver. (Mesmo que 10,12 e 13, pois não coube em uma só imagem) | Usei os dois passos novos indicados pela IA, min-height: 180px(adequando os pixels) e box-sizing: border-box. Ter dado certo com apenas duas funcionalidades trouxe sentimento de alegria. Além disso, aprendi a incluir o padding com a largura e altura indicadas. | prints/ia-11.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida cada caixa de texto com as mesmas larguras e alturas, mesmo que tenha quantidades distintas de caracteres. Pois antes dava tudo com tamanho diferente e não consegui resolver. (Mesmo que 10,11 e 13, pois não coube em uma só imagem) | Usei os dois passos novos indicados pela IA, min-height: 180px(adequando os pixels) e box-sizing: border-box. Ter dado certo com apenas duas funcionalidades trouxe sentimento de alegria. Além disso, aprendi a incluir o padding com a largura e altura indicadas. | prints/ia-12.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida cada caixa de texto com as mesmas larguras e alturas, mesmo que tenha quantidades distintas de caracteres. Pois antes dava tudo com tamanho diferente e não consegui resolver. (Mesmo que 10,11 e 12, pois não coube em uma só imagem) | Usei os dois passos novos indicados pela IA, min-height: 180px(adequando os pixels) e box-sizing: border-box. Ter dado certo com apenas duas funcionalidades trouxe sentimento de alegria. Além disso, aprendi a incluir o padding com a largura e altura indicadas. | prints/ia-13.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um texto centralizado dentro do card, porque não estava funcionando. (Mesmo que 15,16 e 17, pois não coube em uma só imagem) | Usei os passos seguintes, tirar o min-width e acrescentar o text-align diretamente no div do texto. | prints/ia-14.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um texto centralizado dentro do card, porque não estava funcionando. (Mesmo que 14,16 e 17, pois não coube em uma só imagem) | Usei os passos seguintes, tirar o min-width e acrescentar o text-align diretamente no div do texto. | prints/ia-15.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um texto centralizado dentro do card, porque não estava funcionando. (Mesmo que 14,15 e 17, pois não coube em uma só imagem) | Usei os passos seguintes, tirar o min-width e acrescentar o text-align diretamente no div do texto. | prints/ia-16.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um texto centralizado dentro do card, porque não estava funcionando. (Mesmo que 14,15 e 16, pois não coube em uma só imagem) | Usei os passos seguintes, tirar o min-width e acrescentar o text-align diretamente no div do texto. | prints/ia-17.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um 4 textos um embaixo do outro, pois naõ conseguia fazer. (Mesmo que 19 e 20, pois não coube em uma só imagem) | Troquei para column, o que foi indicado pela IA | prints/ia-18.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um 4 textos um embaixo do outro, pois naõ conseguia fazer. (Mesmo que 18 e 20, pois não coube em uma só imagem) | Troquei para column, o que foi indicado pela IA | prints/ia-19.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar um 4 textos um embaixo do outro, pois naõ conseguia fazer. (Mesmo que 18 e 19, pois não coube em uma só imagem) | Troquei para column, o que foi indicado pela IA | prints/ia-20.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Pelos prints 18,19 e 20, eu tinha trocado para flex-direction: colum. Como ainda não deu certo perguntei a IA o que estava acontecendo. (Mesmo que 22, pois não coube em uma só imagem) | Ela não me ajudou, mas pensei que poderia colocar cada um dos textos em uma mesma classe e depois colocar o flex-direction: column, e foi o que fiz. Assim, deu certro.| prints/ia-21.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Pelos prints 18,19 e 20, eu tinha trocado para flex-direction: colum. Como ainda não deu certo perguntei a IA o que estava acontecendo. (Mesmo que 21, pois não coube em uma só imagem) | Ela não me ajudou, mas pensei que poderia colocar cada um dos textos em uma mesma classe e depois colocar o flex-direction: column, e foi o que fiz. Assim, deu certro.| prints/ia-22.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css | Dúvida sobre como deixar a navbar sem o azul padrão de links porque não estava conseguindo colocar (Mesmo que 25, pois não coube em uma só imagem) | Eu coloquei o primeiro código e aprendi.| prints/ia-24.png |
+| 2026-11-20 | Gemini | Estrutura CSS | site/css/index.css |  Dúvida sobre como deixar a navbar sem o azul padrão de links porque não estava conseguindo colocar (Mesmo que 24, pois não coube em uma só imagem) | Eu coloquei o primeiro código e aprendi.| prints/ia-25.png |
+| 2026-11-20 | Gemini | Responsividade | site/css/index.html | Dúvida sobre como fazer a versão mobile, porque não sabia como fazer. (Mesmo que 27, pois não coube em uma só imagem) | Aprendi usar o maz-width e min-width| prints/ia-26.png |
+| 2026-11-20 | Gemini | Responsividade | site/css/index.html | Dúvida sobre como fazer a versão mobile, porque não sabia como fazer. (Mesmo que 26, pois não coube em uma só imagem) | Aprendi usar o maz-width e min-width| prints/ia-27.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois não conseguia. (Mesmo que 29,30,31,32 e 33, pois não coube em uma só imagem) | Não usei os códigos, pois eram muio grandes e não entendi| prints/ia-28.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois não conseguia. (Mesmo que 28,30,31,32 e 33, pois não coube em uma só imagem) | Não usei os códigos, pois eram muio grandes e não entendi| prints/ia-29.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois não conseguia. (Mesmo que 28,29,31,32 e 33, pois não coube em uma só imagem) | Não usei os códigos, pois eram muio grandes e não entendi| prints/ia-30.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois não conseguia. (Mesmo que 28,29,30,32 e 33, pois não coube em uma só imagem) | Não usei os códigos, pois eram muio grandes e não entendi| prints/ia-31.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois não conseguia. (Mesmo que 28,29,30,31 e 33, pois não coube em uma só imagem) | Não usei os códigos, pois eram muio grandes e não entendi| prints/ia-32.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois não conseguia. (Mesmo que 28,29,30,31 e 33, pois não coube em uma só imagem) | Não usei os códigos, pois eram muio grandes e não entendi| prints/ia-33.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois nos prints 28 a 35 a IA só me mandou os montes de códigos grandes e complexos (Mesmo que print 35, pois não coube em uma só imagem)| Usei os códigos display: none e os do print 35, adaptando para o meu código. | prints/ia-34.png |
+| 2026-11-21 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, pois nos prints 28 a 35 a IA só me mandou os montes de códigos grandes e complexos (Mesmo que print 34, pois não coube em uma só imagem)| Usei os códigos display: none e os do print 35, adaptando para o meu código. | prints/ia-35.png |
+| 2026-11-23 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, para fazer que quando a pessoa clicasse em um card aparecesse a div e quando clicasse em outra, apagasse a primeira e aparecesse a div correspondente (Mesmo que print 34,35,36,37,38 e 39, pois não coube em uma só imagem)| Usei os códigos indicados pela Ia  dos prints 36 e 37 olhando se encaixava no meu código. | prints/ia-36.png |
+| 2026-11-23 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, para fazer que quando a pessoa clicasse em um card aparecesse a div e quando clicasse em outra, apagasse a primeira e aparecesse a div correspondente (Mesmo que print 34,35,36,37,38 e 39, pois não coube em uma só imagem)| Usei os códigos indicados pela Ia  dos prints 36 e 37 olhando se encaixava no meu código. | prints/ia-37.png |
+| 2026-11-23 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, para fazer que quando a pessoa clicasse em um card aparecesse a div e quando clicasse em outra, apagasse a primeira e aparecesse a div correspondente (Mesmo que print 34,35,36,37,38 e 39, pois não coube em uma só imagem)| Usei os códigos indicados pela Ia  dos prints 36 e 37 olhando se encaixava no meu código. | prints/ia-38.png |
+| 2026-11-23 | Gemini | Js | site/js/missão.js | Dúvida sobre como fazer um js, para fazer que quando a pessoa clicasse em um card aparecesse a div e quando clicasse em outra, apagasse a primeira e aparecesse a div correspondente (Mesmo que print 34,35,36,37,38 e 39, pois não coube em uma só imagem)| Usei os códigos indicados pela Ia  dos prints 36 e 37 olhando se encaixava no meu código. | prints/ia-39.png |
+| 2026-11-23 | Gemini | Html | site/universo/missões.html | Dúvida sobre como fazer que os margin não etrapolassem as divs das seções principais, pois estava ficando trechos em branco (Mesmo que print 40,41 e 42, pois não coube em uma só imagem)| Usei o display: flow-root; dos prints 41 e 42| prints/ia-40.png |
+| 2026-11-23 | Gemini | Html | site/universo/missões.html | Dúvida sobre como fazer que os margin não etrapolassem as divs das seções principais, pois estava ficando trechos em branco (Mesmo que print 40,41 e 42, pois não coube em uma só imagem)| Usei o display: flow-root; dos prints 41 e 42| prints/ia-41.png |
+| 2026-11-23 | Gemini | Html | site/universo/missões.html | Dúvida sobre como fazer que os margin não etrapolassem as divs das seções principais, pois estava ficando trechos em branco (Mesmo que print 40,41 e 42, pois não coube em uma só imagem)| Usei o display: flow-root; dos prints 41 e 42| prints/ia-42.png |
 
 
