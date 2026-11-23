@@ -85,10 +85,6 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | | | | | | | prints/ia-48.png |
 | | | | | | | prints/ia-49.png |
 | 2026-11-23 | ChatGPT | Estrutura HTML do menu | site/index.html | Dúvida sobre como criar um botão que abrisse um menu de navegação. | Recebi uma estrutura HTML com botão e links para as páginas do site. | prints/ia-50.jpeg |
-| | | | | | | prints/ia-47.png |
-| | | | | | | prints/ia-48.png |
-| | | | | | | prints/ia-49.png |
-| 2026-11-23 | ChatGPT | Estrutura HTML do menu | site/index.html | Dúvida sobre como criar um botão que abrisse um menu de navegação. | Recebi uma estrutura HTML com botão e links para as páginas do site. | prints/ia-50.jpeg |
 | 2026-11-23 | ChatGPT | Ocultar menu com CSS | site/css/estilo.css | O menu precisava ficar escondido inicialmente e aparecer somente após o clique. | Entendi o uso de `display: none` para esconder o menu. | prints/ia-51.jpeg |
 | 2026-11-23 | ChatGPT | Seleção de elementos JavaScript | site/js/script.js | Dúvida sobre como identificar o botão e o menu no JavaScript. | Aprendi a utilizar `getElementById()` e `addEventListener()`. | prints/ia-52.jpeg |
 | 2026-11-23 | ChatGPT | Abertura e fechamento do menu | site/js/script.js; site/css/estilo.css | O botão precisava controlar a abertura e o fechamento do menu. | Utilizei `classList.toggle()` para alternar a classe de abertura. | prints/ia-53.jpeg |
