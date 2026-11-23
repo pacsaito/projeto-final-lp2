@@ -68,17 +68,23 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | | | | | | | prints/ia-33.png |
 | | | | | | | prints/ia-34.png |
 | | | | | | | prints/ia-35.png |
-| | | | | | | prints/ia-36.png |
-| | | | | | | prints/ia-37.png |
-| | | | | | | prints/ia-38.png |
-| | | | | | | prints/ia-39.png |
-| | | | | | | prints/ia-40.png |
-| | | | | | | prints/ia-41.png |
-| | | | | | | prints/ia-42.png |
-| | | | | | | prints/ia-43.png |
-| | | | | | | prints/ia-44.png |
-| | | | | | | prints/ia-45.png |
-| | | | | | | prints/ia-46.png |
+| Data | IA | Título / Assunto | Arquivo | Dúvida / Problema | Resposta / Solução | Print |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-22 | ChatGPT | Correção do caminho do arquivo CSS | site/universo/teorias.html e site/css/teorias.css | Dúvida sobre o motivo de o arquivo CSS não estar sendo aplicado à página HTML. | Identificou o erro no caminho relativo devido à organização das pastas (site/css/ e site/universo/). | prints/ia-36.png |
+| 2026-11-22 | ChatGPT | Imagem de fundo em uma div | site/css/teorias.css | Dúvida sobre como colocar uma imagem de fundo em uma div como se fosse um wallpaper. | Explicou o uso da propriedade CSS background-image com um exemplo de estrutura HTML e CSS. | prints/ia-37.png |
+| 2026-11-22 | ChatGPT | Caminho relativo da imagem no CSS | site/css/teorias.css | Dúvida sobre quantos níveis de pasta (../) usar no caminho da imagem de fundo. | Indicou o caminho correto (url("../../img/ImagemInicial.png")) voltando dois níveis a partir de site/css/. | prints/ia-38.png |
+| 2026-11-22 | ChatGPT | Verificação de caminho de imagens no HTML | site/universo/teorias.html | Dúvida para confirmar se o caminho ../../img/ estava certo para três imagens na mesma pasta. | Confirmou que o caminho utilizado nas tags img estava correto para a estrutura de site/universo/. | prints/ia-39.png |
+| 2026-11-22 | ChatGPT | Ajuste de tamanho e repetição de fundo | site/css/teorias.css | Problema com imagens de fundo se repetindo infinitamente e dúvidas sobre medidas de borda/espaçamento. | Orientou a não usar parágrafos vazios para espaçamento e usar background-repeat: no-repeat e background-size: cover. | prints/ia-40.png |
+| 2026-11-22 | ChatGPT | Erro no endereço de exibição de imagem | site/css/objetos.css | Problema com uma imagem (image 15.png) que não estava aparecendo na página. | Apontou um erro de digitação no caminho (img/image/15.png em vez de img/image 15.png). | prints/ia-41.png |
+| 2026-11-22 | ChatGPT | Alinhamento vertical de imagens | site/css/teorias.css | Dificuldade em posicionar três imagens uma embaixo da outra na lateral direita da página. | Explicou que a propriedade columns: 1 não serve para esse tipo de layout e sugeriu ajustar a estrutura CSS. | prints/ia-42.png |
+| 2026-11-22 | Gemini | Melhoria de resolução e transição de imagem | img/ | Pedido para melhorar a qualidade (evitar pixelização) e escurecer o topo de uma imagem para fundir com o banner. | Gerou uma nova versão da imagem em alta resolução com o topo escurecido para transição suave. | prints/ia-43.png |
+| 2026-11-23 | Gemini | Renderização e transição entre imagens de fundo | img/ | Pedido para renderizar duas imagens (evitar pixelização) e igualar o final de uma com o início da outra para criar transição. | Gerou as duas imagens em alta resolução com tons compatíveis nas bordas para formar uma transição contínua. | prints/ia-44.png |
+| 2026-11-23 | ChatGPT | Rolagem interna ao clicar em imagem | site/index.html | Dúvida sobre como fazer a página rolar para uma seção mais abaixo ao clicar em uma imagem. | Explicou o uso de âncora HTML (<a href="#id">) envolvendo a tag <img> para navegar até a seção desejada. | prints/ia-45.png |
+| 2026-11-23 | ChatGPT | Posicionamento da regra @media no CSS | site/css/ | Dúvida sobre onde inserir o @media no arquivo CSS para ajustar o tamanho de uma div no mobile. | Orientou a colocar o bloco @media no final do arquivo CSS, após os estilos padrão de desktop. | prints/ia-46.png |
+| 2026-11-23 | ChatGPT | Exemplo prático de responsividade com @media | site/css/ | Continuação da dúvida sobre como aplicar media queries para adaptar a altura e o espaçamento no celular. | Forneceu o código CSS com @media (max-width: 768px) ajustando min-height e padding da classe. | prints/ia-47.png |
+| | | | | | | prints/ia-48.png |
+| | | | | | | prints/ia-49.png |
+| 2026-11-23 | ChatGPT | Estrutura HTML do menu | site/index.html | Dúvida sobre como criar um botão que abrisse um menu de navegação. | Recebi uma estrutura HTML com botão e links para as páginas do site. | prints/ia-50.jpeg |
 | | | | | | | prints/ia-47.png |
 | | | | | | | prints/ia-48.png |
 | | | | | | | prints/ia-49.png |
