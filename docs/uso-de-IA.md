@@ -70,7 +70,7 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | | | | | | | prints/ia-35.png |
 | Data | IA | Título / Assunto | Arquivo | Dúvida / Problema | Resposta / Solução | Print |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-22 | ChatGPT | Correção do caminho do arquivo CSS | site/universo/teorias.html e site/css/teorias.css | Dúvida sobre o motivo de o arquivo CSS não estar sendo aplicado à página HTML. | Identificou o erro no caminho relativo devido à organização das pastas (site/css/ e site/universo/). | prints/ia-36.png |
+| 2026-11-22 | ChatGPT | Correção do caminho do arquivo CSS | site/universo/teorias.html e site/css/teorias.css | Dúvida sobre o motivo de o arquivo CSS não estar sendo aplicado à página HTML. | Arrumei a  organização das pastas  desse jeito como orientado(site/css/ e site/universo/). | prints/ia-36.png |
 | 2026-11-22 | ChatGPT | Imagem de fundo em uma div | site/css/teorias.css | Dúvida sobre como colocar uma imagem de fundo em uma div como se fosse um wallpaper. | Explicou o uso da propriedade CSS background-image com um exemplo de estrutura HTML e CSS. | prints/ia-37.png |
 | 2026-11-22 | ChatGPT | Caminho relativo da imagem no CSS | site/css/teorias.css | Dúvida sobre quantos níveis de pasta (../) usar no caminho da imagem de fundo. | Indicou o caminho correto (url("../../img/ImagemInicial.png")) voltando dois níveis a partir de site/css/. | prints/ia-38.png |
 | 2026-11-22 | ChatGPT | Verificação de caminho de imagens no HTML | site/universo/teorias.html | Dúvida para confirmar se o caminho ../../img/ estava certo para três imagens na mesma pasta. | Confirmou que o caminho utilizado nas tags img estava correto para a estrutura de site/universo/. | prints/ia-39.png |
